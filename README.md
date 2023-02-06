@@ -1,1 +1,1 @@
-# login-user
+// Para poder ingresar se debe utilizar el correo: eve.holt@reqres.in y la contraseña: cityslicka. Se realizó con la documentación https://reqres.in/

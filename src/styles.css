@@ -1,0 +1,219 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  color: black;
+}
+
+img {
+  max-height: 220px;
+  display: inline-block;
+  max-width: 300px;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #ebebebc9;
+}
+
+.containerTitle {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftArrow {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+
+  
+.sectionDownHeader {
+  display: flex;
+  justify-content: center;
+  height: calc(100% - 70px)
+}
+
+.containerLogin {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 45%;
+  min-width: 300px;
+}
+
+.containerInputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: -8px 16px 50px rgb(112 144 176 / 10%);
+  border-radius: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.containerInputText {
+  display: flex;
+  flex-direction: column;
+}
+
+.textUpInput {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+}
+
+.inputText {
+  border-radius: 4px;
+  width: 250px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.071em;
+  padding: 10px;
+}
+
+.inputTextPassword {
+  border-radius: 4px;
+  width: 250px;
+  margin-bottom: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.071em;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.buttonSubmit {
+  width: 127px;
+  height: 48px;
+  justify-content: center;
+  border-radius: 6px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border: 4px transparent solid;
+  background: green;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.buttonSubmit:hover {
+  border: 4px green solid;
+}
+
+@media screen and (max-width: 995px) {
+  .containerInputText {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    max-height: 120px;
+    max-width: 300px;
+  }
+}
+
+.containerSection {
+  display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 70px;
+    background-color: #ebebebc9;
+}
+
+.titleVideo {
+  height: 40px;
+  top: 102px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  font-style: normal;
+  color: green;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  list-style: none;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+.card {
+  margin: 10px;
+  flex-basis: 45%;
+  padding: 15px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid gray;
+  transition: color 01.5s ease, border-color 0.15s ease;
+  max-width: 600px;
+  height: 300px;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: -8px 16px 50px rgb(112 144 176 / 10%);
+  border-radius: 15px;
+}
+
+.cardCategory {
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  transition: color 01.5s ease, border-color 0.15s ease;
+  width: 400px;
+  height: 400px;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  background: white;
+  box-shadow: -8px 16px 50px rgb(112 144 176 / 10%);
+  border-radius: 15px;
+}
